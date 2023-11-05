@@ -9,7 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
-    background-color: #41636c;
+    background-color: #43626e;
     padding: 10px;
     border-radius: 15px;
 }
@@ -27,7 +27,7 @@
 .header-row-item {
     height: auto;
     width: 16%;
-    background-color: thistle;
+    background-color: #489696;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -50,6 +50,10 @@
     height: 53%;
     background:url('stock-photo.jpg');
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .right-column-description {
     width: auto;
@@ -61,7 +65,7 @@
 .description-items {
     height: auto;
     width: 49.2%;
-    background-color: darkslategray;
+    background-color: #489696;
     padding: 15px;
     border-radius: 15px;
     display: flex;
@@ -89,7 +93,7 @@
     height: auto;
     width: 30%;
     border-radius: 15px;
-    background-color: navajowhite;
+    background-color: #489696;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +109,7 @@
 .left-column-items {
     width: 100%;
     height: 13%;
-    background-color: green;
+    background-color: #489696;
     border-radius: 15px;
     margin-bottom: 15px;
     display: flex;
@@ -115,7 +119,7 @@
 .footer {
     height: 10%;
     width: auto;
-    background-color: beige;
+    background-color: #489696;
     border-radius: 15px;
     margin-top: 15px;
     display: flex;
@@ -132,13 +136,38 @@
 .icon-box {
     width: 40px;
     height: 40px;
-    background-color: blueviolet;
+    background-color: #284d4d;
     border-radius: 10px;
 }
 .small-icon-box {
     border-radius: 5px;
     width: 20px;
     height: 20px;
-    background-color: blueviolet;
+    background-color: #284d4d;
     margin-right: 5px;
+}
+.btn {
+    transition: width 0.2s ease 0s, height 0.2s ease;
+    width: 90px;
+    height: 30px;
+    background-color: #308383;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.btn:hover {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: darkslategray;
+}
+.btn:active {
+    transition: all 0.2s ease 0s;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #308383;
 }
